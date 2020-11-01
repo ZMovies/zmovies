@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: white;
+	background-color: #7952b3;
+	padding: 20px;
+}
+
+li{
+	color: white;
+    background-color:#7952b3 ;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+    line-height: 1.5;
+    margin: 5px;
+    padding: 3px;
+    width: 75px;
+    border: 0px solid black;
+
+}
+
+li:hover{
+	background-color: #6b5093;
+	border: 0px solid black;
+
+
+}
+
+.h1{
+	color: white;
+    background-color:#7952b3 ;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+    line-height: 1.5;
+    margin: 5px;
+    padding: 3px;
+    width: 75px;
+    border: 0px solid black;
+
+}
+
+.h1:hover{
+
+	background-color: #6b5093;
+	border: 0px solid black;
+
+}
+
+.h2{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	color: white;
+    background-color:#36be50 ;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+    line-height: 1.5;
+    margin: 5px;
+    padding: 3px;
+    width: 300px;
+    border: 0px solid black;
+    align-content: center;
+
+
+}
+
+.h2:hover{
+
+	background-color: #0b8923;
+	border: 0px solid black;
+
+}
+
+a{
+	color: #f8f9fa
+}
+
