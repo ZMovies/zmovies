@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>movie download</title>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Open+Sans:300"/>
+	<style type="text/css">
+		body{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			font:normal 18px/1.5 'PT Sans Narrow', sans-serif;
+		}
+
+		h3{
+			text-align: center;
+			padding-top: 50px;
+			letter-spacing: 1px;
+			font-size: 35px;
+		}
+
+		.container{
+			margin-top: -30px;
+			position: absolute;
+			top: 50%
+			left:100px;
+			transform: translate(-50%,-50%);
+			height: 300px;
+			width: 300px;
+			border-color: #1995ad;
+			border-width: 2px;
+			border-style: solid;
+			border-radius: 50%;	
+			background-color: green;
+		}
+
+		.container #timer{
+			position: absolute;
+			top: 100%;
+			left: 900px;
+			transform: translate(-50%,-50%);
+
+		}
+
+		#btn{
+			position: absolute;
+			top: 70%;
+			left: 750px;
+			transform:translate(-50%,-50%);
+			padding: 12px 10px;
+			border: none;
+			background-color: #cf3721;
+			cursor: no-drop;
+			opacity: 0.5;
+
+		}
+	</style>
+</head>
+<body>
+
+
+	<h3>Your link will be generated in</h3>
+	<div class="container">
+		<h1 class="timer" id="timer">Some thing..</h1>
+		
+	</div>
+	<button class="btn" id="btn">wait</button>
+
+
+
+</body>
+<script >
+	var time=15;
+	var x=setInterval(function(){
+		document.getElementById("timer").innerHTML=""+time+"seconds";
+		time=time-1;
+
+		if (time < 0) {
+			clearInterval(x);
+			document.getElementById("btn").innerHTML= "Get link";
+			window.open("https://www.w3schools.com");
+		}
+	},1000)
+</script>
+</html>
